@@ -21,7 +21,7 @@ server_params = StdioServerParameters(
         "FIRECRAWL_API_KEY": os.getenv("FIRECRAWL_API_KEY"),
     },
     args=["firecrawl-mcp"]
-)
+)#
 
 
 async def main():
